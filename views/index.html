@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>Sailakumari Payala</title>
+<meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+    
+      
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+	<script src="contact.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  
+</head>
+<body class="body" ng-app="PortfolioApp">
+
+
+<header class"Main-header">
+
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul id="logo" class="nav navbar-nav"><li><img src="images/logo.png" class="img-circle" alt="profile" width="50" height="50"></li><li><a class="navbar-brand" href="#">Sailakumari Payala</a></li></ul>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="portfolio">Portfolio</a></li>
+        <li><a ui-sref="about">About</a></li> 
+        <li><a ui-sref="contact">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+        
+
+<div class="MainContent">
+
+ <div ui-view="" autoscroll="false"></div>
+
+  </div>     
+
+<footer>
+<div class="footer-info">
+		<small style="float:left;">© 2015 Sailakumari payala. All rights reserved.</small>
+		<div class="row">
+    <div class="col-md-10 col-md-offset-1"> 
+		
+      <ul class="social-network">
+     <li><h2>REACH ME</h2></li><li><a href="https://www.facebook.com/spayala" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/sailapayala"target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+		<li><a href="https://github.com/sailupayala" target="_blank"><i class="fa fa-lg fa-github"target="_blank"></i></a></li>
+        <li><a href="#sailupayala"><i class="fa fa-lg fa-skype" target="_blank"></i></a></li>
+       </ul>
+    </div>
+   
+</div>
+</div>
+</footer>
+        
+</body>
+</html>
+
+

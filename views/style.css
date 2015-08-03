@@ -1,0 +1,33 @@
+
+.body ng-scope{background-image:url('footer.png');}
+
+
+div.footer-info{
+background-color:black;
+height:200px;color:white;}
+.MainContent{height:800px;margin-top: 40px!important;}
+ul#logo li a{font-size:20px;font-color:white;font-weight:bolsocial-networkd;}
+ul.social-network li{display:inline-block;margin-top:55px;}
+ul.social-network li a{display:inline-block;width:100px;height:60px;font-size:40px;margin-left:55px;border: 1px solid #ddd;border-radius:15px;
+    transition: background-color 0.3s ease-in;background-color:black;text-align:center;}
+	ul.social-network li a:hover{background-color:white !important;}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{color:#337ab7 !important;}
+b, strong {color:white;margin-left:10px;}
+.row{margin-top:40px;}
+.col-md-5{background-color:#C0C0C0 ;border-radius:10px;height:100px;margin-bottom:45px;}
+.col-md-2{background-color:#B0C4DE ;border-radius:10px;height:250px;margin-bottom:45px;}
+.col-md-4{background-color:#C0C0C0 ;border-radius:10px;height:200px;}
+.col-sm-3{background-color:#C0C0C0 ;border-radius:10px;height:270px;}
+#myCarousel{margin:auto;}
+.carousel-control{width:40% !important;  }
+div#myCarousel.carousel.slide{border-radius:10px;}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;}
+	  .social-network{display:inline;list-style: none;width:50px;height:50px;}
+	  .footer-info{}
+	  .footer-info ul{list-style:none;}
+	  .navbar-inverse .navbar-nav>li>a{font-size: 15px;
+  font-weight: bold;}
+  a.navbar-brand strong{font-size: 18px;}
